@@ -144,6 +144,11 @@ module.exports = {
     new Dotenv(),
     
   ],
-
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    historyApiFallback: true,
+    port: 3006,
+  }
 
 }
