@@ -100,7 +100,7 @@ module.exports = {
             // ubuntu-regularhola.woff
             outputPath: './assets/fonts/',
             // EL DIRECTORIO DE SALIDA (SIN COMPLICACIONES)
-            publicPath: './assets/fonts/',
+            publicPath: '../assets/fonts/',
             // EL DIRECTORIO PUBLICO (SIN COMPLICACIONES)
             esModule: false
             // AVISAR EXPLICITAMENTE SI ES UN MODULO
