@@ -24,7 +24,7 @@ module.exports = {
   // ubicacion del archivo donde se almacena la compilacion de webpack
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].js', // IDENTIFICAR CADA COMPILACION DEL PROYECTO CON UN HASH
+    filename: 'index.js', // IDENTIFICAR CADA COMPILACION DEL PROYECTO CON UN HASH
     assetModuleFilename: 'assets/images/[hash][ext][query]'
   },
 
